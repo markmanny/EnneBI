@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SONI - Immobiliare EnneBi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>E<span class="text-red">nne</span><span class="text-blue">Bi</span></h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#projects" class="nav-link">Progetti</a>
+                <a href="#about" class="nav-link">Chi Sono</a>
+                <a href="#contact" class="nav-link">Contatti</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Immobiliare E<span class="text-red">nne</span><span class="text-blue">Bi</span></h1>
+                <p class="hero-subtitle">Design innovativo che trasforma gli spazi in esperienze uniche</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">Scopri i Progetti</a>
+                    <a href="#contact" class="btn-secondary">Contattaci</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="imagesoni.jpg" alt="SONI - Immobiliare EnneBi" class="hero-img">
+                <div class="image-overlay"></div>
+            </div>
+        </div>
+        
+        <!-- Dynamic Text Section -->
+        <div class="dynamic-text-container">
+            <div class="dynamic-text-wrapper">
+                <span class="dynamic-prefix">I'm </span>
+                <span class="dynamic-text" id="dynamic-text">Creative</span>
+                <span class="cursor">|</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">I Miei Progetti</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="1.jpg" alt="Progetto 1" class="project-img">
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="2.jpg" alt="Progetto 2" class="project-img">
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="3.jpg" alt="Progetto 3" class="project-img">
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="4.jpg" alt="Progetto 4" class="project-img">
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="6.jpg" alt="Progetto 6" class="project-img">
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="7.jpg" alt="Progetto 7" class="project-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content-single">
+                <div class="about-text-full">
+                    <h2>Chi Sono</h2>
+                    <p>La mia passione per il design è nata da bambina, sfogliando le riviste di interior design che mia mamma collezionava: pagine piene di ispirazione che mi hanno insegnato il potere degli spazi ben progettati.</p>
+                    <p>Dopo il diploma come Geometra e la laurea in Architettura, ho scelto di seguire quella curiosità iniziale e trasformarla in un percorso dedicato all'interior e retail design.</p>
+                    <p>Amo immaginare ambienti che non siano solo funzionali, ma che raccontino qualcosa, emozionino e valorizzino l'identità di chi li vive o li visita. Forme, materiali, luce e atmosfera sono i miei strumenti per dare vita a spazi unici.</p>
+                    <p>Mi guidano la sensibilità estetica, l'attenzione al dettaglio e la voglia di mettermi in gioco.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats and Location Section -->
+    <section id="stats-location" class="stats-location">
+        <div class="container">
+            <div class="stats-location-content">
+                <div class="stats-card-full">
+                    <div class="stats-content-full">
+                        <div class="map-container-full">
+                            <h3 class="map-title">📍 Sede Legale</h3>
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.2!2d9.1588!3d45.1847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVmlhIFRpY2luZWxsbyAyMiwgUGF2aWE!5e0!3m2!1sit!2sit!4v1640000000000!5m2!1sit!2sit&q=Via+Ticinello+22,+Pavia,+Italia"
+                                width="100%" 
+                                height="200" 
+                                style="border:0; border-radius: 12px;" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                            <p class="address-full">Via Ticinello 22, Pavia (PV)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contattaci</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>📍 Sede</h3>
+                        <p>Via Ticinello 22<br>Pavia, Italia</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>✉️ Email</h3>
+                        <p>sonia.notarianni@treb1977.it</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>💼 LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/sonia-notarianni-61474b374/" target="_blank" class="linkedin-btn">
+                            <span class="linkedin-icon">in</span>
+                            Sonia Notarianni
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Oggetto" required>
+                    <textarea placeholder="Messaggio" rows="5" required></textarea>
+                    <button type="submit" class="btn-primary">Invia Messaggio</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ennebisrls</h3>
+                    <p>Progettare il futuro, un edificio alla volta.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Termini di Servizio</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ennebisrls. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

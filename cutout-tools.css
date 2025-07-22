@@ -1,0 +1,36 @@
+/* CSS Tool per rimuovere sfondo bianco dalle immagini */
+
+/* Metodo 1: Mix-blend-mode multiply per rimuovere bianco */
+.remove-white-bg {
+    mix-blend-mode: multiply;
+    background: transparent;
+}
+
+/* Metodo 2: Filter avanzato per aumentare contrasto e rimuovere sfondo chiaro */
+.enhance-subject {
+    filter: 
+        contrast(150%) 
+        saturate(120%) 
+        brightness(105%)
+        hue-rotate(2deg);
+}
+
+/* Metodo 3: Mask per creare bordi sfumati */
+.soft-edges {
+    -webkit-mask: radial-gradient(ellipse at center, black 60%, transparent 80%);
+    mask: radial-gradient(ellipse at center, black 60%, transparent 80%);
+}
+
+/* Metodo 4: Clip-path per ritaglio preciso */
+.precise-crop {
+    clip-path: polygon(8% 8%, 92% 8%, 92% 92%, 8% 92%);
+}
+
+/* Applicazione combinata per scontorno professionale */
+.professional-cutout {
+    mix-blend-mode: multiply;
+    filter: contrast(140%) saturate(115%) brightness(102%);
+    -webkit-mask: radial-gradient(ellipse 80% 90% at center, black 50%, transparent 75%);
+    mask: radial-gradient(ellipse 80% 90% at center, black 50%, transparent 75%);
+    background: transparent;
+}
